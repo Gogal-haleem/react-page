@@ -1,84 +1,47 @@
 
 body{
-   margin:0 ;
-   padding-bottom:120px;
-   position: relative;
+   padding:30px;
    font-family: Inter,sans-serif;
 
 }
 
-header{
-    background-color: #F55A5A;
+.contacts{
     display: flex;
-    color:white;
-  
-    font-family: Inter,sans-serif;
-    font-weight: 400; 
-    position: relative;
-    padding-left:50px;
-    
-}
-
-
-
-.head-h1{
-    position: absolute;
-    top:10px;
-    left:170px;
-}
-
-.div1{
-    position: relative;
-}
-.Entry-facts{
-position: absolute;
-top:90px;
-left:460px;
-
-font-weight:400;
-font-size:1rem;
-display:flex;
-flex-direction: column;
-gap:3px;
-}
-
-p{
-    margin-top:0px;
-    margin-bottom:0px;
-}
-
-
-.fuji-image{
-    padding-top:60px;
-    padding-left:160px;
-    margin-bottom:29px;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:20px;
+    height:180px;
    
-    
 }
 
+.class-card{
+
+border:4px solid rgb(236, 229, 229);
+width:250px;
+padding-left:10px;
+padding-top:10px;
+padding-bottom:30px;
+border-radius:9px;
+display: flex;
+flex-direction: column;
 
 
-
-.fuji-link{
-    position: absolute;
-    left:90px;
-    top:12px;
 }
 
-.Entry-country{
-    position: absolute;
-    left:30px;
-    top:13px;
+.Group-info{
+   display: grid;
+   grid-template-columns: 30px 1fr;
+   grid-template-rows: auto auto;
+   row-gap:14px;
+   column-gap:10px;
+   align-items: center;
+   gap:8px;
 }
 
-.div2{
-    position: relative;
+.catimage{
+    width:240px;
+    height:240px;
+    object-fit: cover;
+   border-radius:5px;
 }
-
-.sydney-link{
-    position: absolute;
-    top:12px;
-    left:128px;
-}
-
 
